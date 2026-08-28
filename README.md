@@ -21,7 +21,7 @@ Uses [SauceDemo](https://www.saucedemo.com/) — a standard demo web app — so 
 | **Global Setup via Project Dependencies** | `auth.setup.ts` logs in once, shares session via `storageState` |
 | **Auth-Gated Test Separation** | Login tests run in a separate project without pre-auth session |
 | **Cross-Browser CI** | Chromium, Firefox, WebKit in GitHub Actions |
-| **Smart Reporting** | HTML report + failure screenshots + video on retries |
+| **Smart Reporting** | Built-in HTML report + failure screenshots + video on retries |
 
 ---
 

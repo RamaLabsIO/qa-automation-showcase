@@ -59,8 +59,3 @@ Desktop.ini
 .eslintcache
 .stylelintcache
 .nyc_output/
-
-# Allure
-.allure/
-allure-results/
-allure-report/
