@@ -38,4 +38,14 @@ test.describe('Login', () => {
     await loginPage.closeError();
     expect(await loginPage.isErrorVisible()).toBe(false);
   });
+
+  test('logout returns to login page', async ({ loginPage, inventoryPage }) => {
+    await loginPage.login(USERS.standard.username, USERS.standard.password);
+    await expect(inventoryPage.inventoryItems.first()).toBeVisible();
+
+    await inventoryPage.logout();
+
+    await expect(loginPage.loginButton).toBeVisible();
+    await expect(loginPage.page).toHaveURL('/');
+  });
 });

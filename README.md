@@ -29,9 +29,9 @@ Uses [SauceDemo](https://www.saucedemo.com/) — a standard demo web app — so 
 
 | Spec | Tests | Auth | What It Covers |
 |------|-------|------|----------------|
-| `login.spec.ts` | 5 | ❌ No (own login) | Standard login, locked out user, empty credentials, wrong password, error dismissal |
+| `login.spec.ts` | 6 | ❌ No (own login) | Standard login, locked out user, empty credentials, wrong password, error dismissal, **logout** |
 | `special-users.spec.ts` | 2 | ❌ No (own login) | Performance glitch user, problem user |
-| `products.spec.ts` | 7 | ✅ Global setup | Item listing, add/remove cart, 4 sort modes, logout |
+| `products.spec.ts` | 6 | ✅ Global setup | Item listing, add/remove cart, 4 sort modes |
 | `cart.spec.ts` | 4 | ✅ Global setup | Item persistence, removal, continue shopping, empty cart |
 | `checkout.spec.ts` | 7 | ✅ Global setup | Full purchase flow, cancel at 2 stages, 3 field validations, back home |
 | `edge-cases.spec.ts` | 2 | ✅ Global setup | Bulk add all items, cart persistence across navigation |

@@ -56,10 +56,4 @@ test.describe('Products', () => {
     const sorted = [...names].sort().reverse();
     expect(names).toEqual(sorted);
   });
-
-  test('logout returns to login page', async ({ inventoryPage, loginPage }) => {
-    await inventoryPage.logout();
-    await expect(loginPage.loginButton).toBeVisible();
-    await expect(loginPage.page).toHaveURL('/');
-  });
 });
