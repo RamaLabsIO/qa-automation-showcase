@@ -2,7 +2,7 @@
 
 > **Damir Rama** | Playwright & TypeScript test automation specialist
 
-[![Playwright Tests](https://github.com/ramalabs/qa-automation-showcase/actions/workflows/playwright.yml/badge.svg)](https://github.com/ramalabs/qa-automation-showcase/actions/workflows/playwright.yml)
+[![Playwright Tests](https://github.com/RamaLabs-6055/qa-automation-showcase/actions/workflows/playwright.yml/badge.svg)](https://github.com/RamaLabs-6055/qa-automation-showcase/actions/workflows/playwright.yml)
 
 A living portfolio of Playwright end-to-end tests demonstrating industry best practices: Page Object Model, typed fixtures, role-based locators, cross-browser execution, and CI/CD integration.
 
